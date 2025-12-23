@@ -1,0 +1,22 @@
+package com.sebastian.riedel.manga;
+
+import org.bson.types.ObjectId;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+import java.util.Optional;
+
+@Service
+public class MangaService {
+    @Autowired
+    private MangaRepository mangaRepository;
+
+    public List<Manga> allMangas(){
+        return mangaRepository.findAll();
+    };
+
+    public Optional<Manga> singleManga(String myanimelistId){
+        return mangaRepository.findMangaByMyanimelistId(myanimelistId);
+    }
+}
