@@ -13,7 +13,7 @@ This app is a simple Fullstack application which uses a Java Spring Boot Backend
 
 **Screenshots:**
 ![Screenshot 1](./screenshots/frontend.PNG)
-![Screenshot 2](./screenshots/mmongodb.PNG)
+![Screenshot 2](./screenshots/mongodb.PNG)
 ![Screenshot 3](./screenshots/backend.PNG)
 
 **Features:**
